@@ -1,0 +1,2 @@
+no. 7
+a. querry = SELECT `nama`.`name`, `work`.`name`, `kategori`.`salary` FROM `work`, `kategori`, `nama` where `nama`.`id_work`=`work`.`id` AND `nama`.`id_salary`=`kategori`.`id`
